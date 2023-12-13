@@ -13,7 +13,7 @@ const ClockWidget: React.FC = () => {
 
     return (
         <div className="flex flex-col rounded items-center justify-center bg-gray-800 text-white p-4">
-            <div className="flex items-center text-5xl font-bold">
+            <div className="flex items-center text-5xl font-bold font-mono">
                 <TbClock12 className='mr-1 p-2' />
                 <span>{time.toLocaleTimeString()}</span>
             </div>
